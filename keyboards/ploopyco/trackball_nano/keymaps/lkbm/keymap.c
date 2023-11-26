@@ -26,7 +26,7 @@
 // World record for fastest index finger tapping is 1092 taps per minute, which
 // is 55ms for a single tap.
 // https://recordsetter.com/world-record/index-finger-taps-minute/46066
-#define LED_CMD_TIMEOUT 25
+#define LED_CMD_TIMEOUT 200
 #define DELTA_X_THRESHOLD 60
 #define DELTA_Y_THRESHOLD 15
 
@@ -107,7 +107,7 @@ uint32_t command_timeout(uint32_t trigger_time, void *cb_arg) {
             break;
         case CMD_RESET:
 #           ifdef CONSOLE_ENABLE
-            uprint("QK_BOOT)\n");
+            uprint("RESET)\n");
 #           endif
             reset_keyboard();
             break;

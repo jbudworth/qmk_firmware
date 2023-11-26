@@ -1,0 +1,8 @@
+#pragma once
+
+// #define JOYSTICK_AXES_COUNT 2
+// #define JOYSTICK_BUTTON_COUNT 1
+
+//#define PIMORONI_TRACKBALL_ROTATE
+//#define PIMORONI_TRACKBALL_INVERT_X
+
